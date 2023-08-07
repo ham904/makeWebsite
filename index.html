@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InQ's portfolio</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#skill").hover(function () {
+                $(".sub1").slideToggle(500);
+            });
+        });
+
+        $(document).ready(function () {
+            $("#archive0").hover(function () {
+                $(".sub2").slideToggle(500);
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <header id="header">
+
+            <h1 id="logo"><a href="#">InQ's portfolio</a></h1>
+
+            <div class="menu">
+                <ul>
+                    <li class="main-menu"><a href="#"><b>About me</b></a></li>
+                    <li class="main-menu" id="skill"><a href="#"><b>Skills</b></a>
+                        <ul>
+                            <li class="sub1">Java</li>
+                            <li class="sub1">Python</li>
+                            <li class="sub1">Html/Css</li>
+                            <li class="sub1">JavaScript</li>
+                        </ul>
+                    </li>
+                    <li class="main-menu" id="archive0"><a href="#"><b>Archive</b></a>
+                        <ul>
+                            <li class="sub2">Github</li>
+                        </ul>
+                    </li>
+                    <li class="main-menu"><a href="#"><b>Projects</b></a></li>
+                </ul>
+            </div>
+
+        </header>
+        <section id="Main">
+            <div class="container2">
+                <h1 class="intro" id="intro1">함인규의 포트폴리오</h1>
+                <p class="intro">연세it미래교육원에서 빅데이터 교육과정을 수강중인 교육생입니다.</p>
+            </div>
+        </section>
+        <section id="Aboutme">
+
+            <h1><b>ABOUT ME</b></h1>
+            <div class="container3">
+                <div class="container3-1">
+                    <div class="container3-1-1">이름</div>
+                    <div class="container3-1-1">주소</div>
+                    <div class="container3-1-1">메일</div>
+                </div>
+                <div class="container3-1">
+                    <div class="container3-1-2">함인규</div>
+                    <div class="container3-1-2">수원</div>
+                    <div class="container3-1-2">ham904904@gmail.com</div>
+                </div>
+                <div class="container3-1">
+                    <div class="container3-1-3">생년월일</div>
+                    <div class="container3-1-3">연락처</div>
+                    <div class="container3-1-3">소속</div>
+                </div>
+                <div class="container3-1">
+                    <div class="container3-1-4">1994.09.04</div>
+                    <div class="container3-1-4">010-7351-2351</div>
+                    <div class="container3-1-4">연세it미래교육원</div>
+                </div>
+            </div>
+        </section>
+        <section id="Skills">
+            <div class="inner">
+                <div class="skills_title">Skills</div>
+                <div class="skills_container">
+                    <div class="skills_container1">
+                        <div class="skills_container1_title">Front-End</div>
+                        <div class="language_logo1">
+                            <img class="logoImg" src="./images/html-5.png" alt="html로고">
+                        </div>
+                        <div class="language_logo2">
+                            <img class="logoImg" src="./images/css.png" alt="css로고">
+                            <img class="logoImg" src="./images/js.png" alt="js로고">
+                        </div>
+                    </div>
+                    <div class="skills_container1">
+                        <div class="skills_container1_title">Back-End</div>
+                        <div class="language_logo3">
+                            <img class="logoImg" src="./images/java (1).png" alt="java로고">
+                            <img class="logoImg" src="./images/python.png" alt="python로고">
+                        </div>
+                    </div>
+                    <div class="skills_container1">
+                        <div class="skills_container1_title">Tool</div>
+                        <div class="language_logo3">
+                            <img class="logoImg" src="./images/eclipse.jpg" alt="eclipse">
+                            <img class="logoImg" src="./images/Visual_Studio_Code_1.35_icon.svg.png" alt="vscode로고">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Archive">
+            <div class="Archive_title">Archive</div>
+            <div class="Archive_container">
+                <div class="Archive_container1">
+                    <div class="Archive_container1_title">
+                        <img class="icon" src="./images/github.png" alt="">
+                        <span class="iconName">Github</span>
+                    </div>
+                    <div class="Archive_container1_element">
+                        <p><a href="https://github.com/ham904" class="a1">github.com/ham904</a></p><br>
+                        <p>깃허브 주소입니다.</p>
+                        <div class="list">
+                            <ul>
+                                <li>작업한 프로젝트</li>
+                                <li>교육 과정 중 학습한 내용</li>
+                                <li>혼자 공부한 내용</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="Archive_container1">
+                    <div class="Archive_container1_title">
+                        <img class="icon" src="./images/blog.png" alt="">
+                        <span class="iconName">Blog</span>
+                    </div>
+                    <div class="Archive_container1_element">
+                        <p><a href="#" class="a1">사실 아직 안만듬</a></p><br>
+                        <p>공부했던 것들을 정리해서 모두 올린 블로그입니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Projects">
+            <div class="Projects_title">Projects</div>
+            <div class="Projects_container">
+                <div class="Projects_container1">
+                    <div class="Projects_container1_title">Web Portfolio</div>
+                    <div class="Projects_container1_title2">230803~230806</div>
+                    <div class="Projects_container1-1">
+                        <div class="Projects_container1-1_img">
+                            <img src="./images/webSite.png" id="imgWeb">
+                        </div>
+                        <div class="Projects_container1-1_noneImg">
+
+                            <div class="Projects_container1-1_description">
+                                <p>현재 보고있는 포트폴리오 사이트입니다</p><br>
+                                <p>기본적인 HTML CSS JS를 이용하여 만든 <br> 웹포트폴리오입니다.</p>
+                            </div>
+                            <div class="Projects_container1-1_information">
+                                <div class="Projects_container1-1_information_left">
+                                    <span class="Projects_container1-1_information_text">Github</span>
+                                    <span class="Projects_container1-1_information_text"> Demo</span>
+                                    <span class="Projects_container1-1_information_text">What i use</span>
+                                </div>
+                                <div class="Projects_container1-1_information_right">
+                                    <span class="Projects_container1-1_information_text2"><a href="#" class="a2">CLick to repository</a></span>
+                                    <span class="Projects_container1-1_information_text2"><a href="#" class="a2">Click to demopage</a></span>
+                                    <span class="Projects_container1-1_information_text2">Html, Css, JavaScript, jquery</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
